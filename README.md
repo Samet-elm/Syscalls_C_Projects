@@ -1,4 +1,4 @@
-# 🛠️ Syscalls C Projects
+#  Syscalls C Projects
 
 **EN:**  
 This repository contains various C projects demonstrating system calls, memory management, multithreading, and steganography.
@@ -8,7 +8,7 @@ Bu depo, sistem çağrıları, bellek yönetimi, çoklu iş parçacığı (threa
 
 ---
 
-## 🧟 1. Zombie Simulation / Zombi Simülasyonu
+##  1. Zombie Simulation / Zombi Simülasyonu
 
 **EN:**  
 Simulates a game scenario where zombies enter a room through doors, and slayers try to kill them using multiple threads.
@@ -25,7 +25,7 @@ Kapılardan giren zombilerin bir odayı istila ettiği ve avcıların onları ö
 
 ---
 
-## 💻 2. Command Executor / Komut Yürütücü
+##  2. Command Executor / Komut Yürütücü
 
 **EN:**  
 A mini shell program that reads user commands, logs them, and executes them. If execution fails, it tries to locate the binary with `which`.
@@ -41,7 +41,7 @@ Kullanıcı komutlarını okuyan, bunları log dosyasına kaydeden ve çalışt�
 
 ---
 
-## 🧠 3. Custom Memory Allocator / Özel Bellek Yöneticisi
+##  3. Custom Memory Allocator / Özel Bellek Yöneticisi
 
 **EN:**  
 Reimplements `malloc` and `free` with different allocation strategies like First Fit, Best Fit, etc. Uses `sbrk()` to request memory from the OS.
@@ -78,8 +78,10 @@ Image *img = imread("image.bmp");        // Load BMP image / BMP resmi yükle
 hidemsg(img, "Secret");                  // Hide a message / Mesaj gizle
 readmsg(img, buffer, 100);               // Read a message / Mesajı oku
 ```
-Works only with 32-bit BMP files
-Sadece 32-bit BMP dosyalarında çalışır
+-Works only with 32-bit BMP files
+-Sadece 32-bit BMP dosyalarında çalışır
+
+---
 
 ## 🧪 Çalışma Ortamı / Runtime Environment
 
