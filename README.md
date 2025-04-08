@@ -57,7 +57,7 @@ Reimplements `malloc` and `free` with different allocation strategies like First
 
 ---
 
-## 🖼️ 4. BMP Steganography Tool / BMP Steganografi Aracı
+##  4. BMP Steganography Tool / BMP Steganografi Aracı
 
 **EN:**  
 A tool to hide messages inside 32-bit BMP images using the Least Significant Bit (LSB) method. Encodes 1 character per pixel by using 2 bits from each RGBA channel.
@@ -71,7 +71,7 @@ A tool to hide messages inside 32-bit BMP images using the Least Significant Bit
   - Minimal impact on image quality / Görüntü kalitesini bozmadan  
   - Simple API: `hidemsg()` and `readmsg()`  
 
-### 🛠️ Example Usage / Örnek Kullanım
+###  Example Usage / Örnek Kullanım
 
 ```c
 Image *img = imread("image.bmp");        // Load BMP image / BMP resmi yükle
@@ -83,7 +83,7 @@ readmsg(img, buffer, 100);               // Read a message / Mesajı oku
 
 ---
 
-## 🧪 Çalışma Ortamı / Runtime Environment
+##  Çalışma Ortamı / Runtime Environment
 
 **TR:**  
 Projelerde POSIX standartlarına uygun sistem çağrıları kullanılmıştır. Bu nedenle, kodları sorunsuz çalıştırmak için **POSIX uyumlu bir Linux dağıtımı** kullanmanız önerilir. Ayrıca WSL 2 ve macOS gibi POSIX desteği bulunan sistemlerde de test edebilirsiniz.
